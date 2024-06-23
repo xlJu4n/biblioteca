@@ -55,7 +55,7 @@ class Menu:
         self.registros = []
 
     def add_image(self):
-        image = Image.open("imgs/IMAGEN.png")
+        image = Image.open("IMAGEN.png")
         image = image.resize((150, 150))
         self.photo = ImageTk.PhotoImage(image)
 
